@@ -2,7 +2,8 @@ package components
 
 import (
 	"context"
-	module "vault-bridge/service/keys/module"
+
+	module "github.com/cloudtrust/vault-bridge/service/keys/module"
 )
 
 //ServiceVault interface
