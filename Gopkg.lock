@@ -15,7 +15,7 @@
 
 [[projects]]
   branch = "master"
-  name = "github.com/cloustrust/vault-client"
+  name = "github.com/bsoniam/vault-client"
   packages = ["client"]
   revision = "8f67cf79a7142ecedd493bc819f9ffa63263eb59"
 
