@@ -1,0 +1,29 @@
+# Component configs
+component-name: vault-bridge
+component-http-address: 127.0.0.1:8080
+
+# Influx DB configs
+influx-url: http://localhost:8086
+influx-username: admin
+influx-password: admin
+influx-database: metrics
+influx-precision: ms
+influx-retention-policy: ""
+influx-write-consistency: ""
+influx-counter-table-name: "vault_counter"
+influx-histogram-table-name: "vault_histogram"
+
+#Vault configs
+vault-token: 6aeec159-592b-a807-ac54-3060f204116c
+vault-url: http://127.0.0.1:8200
+
+# Sentry configs
+sentry-dsn: https://1b65cbc7295f451e8b8e2711cd5ec3af:8ca839ccff4a49fb8b90e8ad7fa5f3b2@sentry.io/253288
+
+# Jaeger configs
+jaeger-service-name: vault_bridge
+jaeger-sampler-type: const
+jaeger-sampler-param: 1
+jaeger-sampler-url: http://127.0.0.1:5775/
+jaeger-reporter-logspan: false
+jaeger-reporter-flushinterval-ms: 1000
