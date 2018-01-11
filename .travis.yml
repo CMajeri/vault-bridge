@@ -2,10 +2,16 @@ language: go
 sudo: false
 go:
   - tip
+env:
+  - TEST_DIR=service/keys/component
+  - TEST_DIR=service/keys/endpoint
+  - TEST_DIR=service/keys/module
+  - TEST_DIR=service/keys/transport
 before_install:
   - go get github.com/mattn/goveralls
   - go get github.com/golang/dep/cmd/dep
 install:
   - $GOPATH/bin/dep ensure -v
-script:
-  - $GOPATH/bin/goveralls -service=travis-ci
+script: cd $TEST_DIR && npm install && npm test
+  - $GOPATH/bin/goveralls -service=travis-ci 
+ 
