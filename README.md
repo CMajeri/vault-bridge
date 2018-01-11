@@ -1,6 +1,6 @@
-[![Build Status](https://travis-ci.org/cloustrust/vault-bridge.svg?branch=master)](https://travis-ci.org/cloustrust/vault-bridge)
-[![Coverage Status](https://coveralls.io/repos/github/cloustrust/vault-bridge/badge.svg?branch=master)](https://coveralls.io/github/cloustrust/vault-bridge?branch=master)
- [![Go Report Card](https://goreportcard.com/badge/github.com/cloustrust/vault-bridge)](https://goreportcard.com/report/github.com/cloustrust/vault-bridge)
+[![Build Status](https://travis-ci.org/cloudtrust/vault-bridge.svg?branch=master)](https://travis-ci.org/cloudtrust/vault-bridge)
+[![Coverage Status](https://coveralls.io/repos/github/cloudtrust/vault-bridge/badge.svg?branch=master)](https://coveralls.io/github/cloudtrust/vault-bridge?branch=master)
+ [![Go Report Card](https://goreportcard.com/badge/github.com/cloudtrust/vault-bridge)](https://goreportcard.com/report/github.com/cloudtrust/vault-bridge)
 
 
 # Vault bridge

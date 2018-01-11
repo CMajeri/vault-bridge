@@ -2,7 +2,8 @@ package endpoints
 
 import (
 	"context"
-	service "vault-bridge/service/keys/component"
+
+	service "github.com/cloudtrust/vault-bridge/service/keys/component"
 
 	"github.com/go-kit/kit/endpoint"
 )
