@@ -8,10 +8,10 @@ import (
 	"time"
 
 	vaultClient "github.com/bsoniam/vault-client/client"
-	service "github.com/cloustrust/vault-bridge/service/keys/component"
-	endpoint "github.com/cloustrust/vault-bridge/service/keys/endpoint"
-	module "github.com/cloustrust/vault-bridge/service/keys/module"
-	transport "github.com/cloustrust/vault-bridge/service/keys/transport"
+	service "github.com/cloudtrust/vault-bridge/service/keys/component"
+	endpoint "github.com/cloudtrust/vault-bridge/service/keys/endpoint"
+	module "github.com/cloudtrust/vault-bridge/service/keys/module"
+	transport "github.com/cloudtrust/vault-bridge/service/keys/transport"
 
 	sentry "github.com/getsentry/raven-go"
 	"github.com/go-kit/kit/log"
