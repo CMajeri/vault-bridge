@@ -6,7 +6,7 @@ import (
 	"net/http"
 	"strings"
 
-	endpoint "github.com/bsoniam/vault-bridge/service/keys/endpoint"
+	endpoint "github.com/cloustrust/vault-bridge/service/keys/endpoint"
 
 	jwt "github.com/dgrijalva/jwt-go"
 	"github.com/pkg/errors"

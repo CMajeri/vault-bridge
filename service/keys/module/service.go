@@ -6,7 +6,7 @@ import (
 	"errors"
 	"strings"
 
-	clientVault "github.com/bsoniam/vault-client/client"
+	clientVault "github.com/cloustrust/vault-client/client"
 
 	jwt "github.com/dgrijalva/jwt-go"
 	httptransport "github.com/go-kit/kit/transport/http"

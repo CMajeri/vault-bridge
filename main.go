@@ -7,11 +7,11 @@ import (
 	"os"
 	"time"
 
-	service "github.com/bsoniam/vault-bridge/service/keys/component"
-	endpoint "github.com/bsoniam/vault-bridge/service/keys/endpoint"
-	module "github.com/bsoniam/vault-bridge/service/keys/module"
-	transport "github.com/bsoniam/vault-bridge/service/keys/transport"
-	vaultClient "github.com/bsoniam/vault-client/client"
+	service "github.com/cloustrust/vault-bridge/service/keys/component"
+	endpoint "github.com/cloustrust/vault-bridge/service/keys/endpoint"
+	module "github.com/cloustrust/vault-bridge/service/keys/module"
+	transport "github.com/cloustrust/vault-bridge/service/keys/transport"
+	vaultClient "github.com/cloustrust/vault-client/client"
 
 	sentry "github.com/getsentry/raven-go"
 	"github.com/go-kit/kit/log"
